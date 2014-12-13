@@ -1,0 +1,62 @@
+// Place all the styles related to the Home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+body {
+  font-family: 'Oswald', sans-serif;
+  background: #d3d3c0; /* Old browsers */
+  background: -moz-linear-gradient(top,  #d3d3c0 45%, #c79810 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(45%,#d3d3c0), color-stop(100%,#c79810)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  #d3d3c0 45%,#c79810 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  #d3d3c0 45%,#c79810 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  #d3d3c0 45%,#c79810 100%); /* IE10+ */
+  background: linear-gradient(to bottom,  #d3d3c0 45%,#c79810 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d3d3c0', endColorstr='#c79810',GradientType=0 ); /* IE6-9 */
+  background-repeat: repeat-x;
+}
+.navbar-default {
+  background-color: #4876b0;
+  border-color: #4876b0;
+}
+.navbar-default .navbar-nav > li > a{
+  color:#fff;
+}
+a, a:link, a:visited{
+  text-decoration: none;
+  text-transform: uppercase;
+}
+h1{
+  font-weight: 800;
+}
+h2{
+  font-size: 26px;
+  font-weight: 300;
+  margin-top: 8px;
+}
+h1,h2{
+  color:#2c2c2d;
+  text-align: center;
+  text-transform: uppercase;
+}
+.col-sm-10{
+  margin-bottom: 10px;
+}
+ul.unstyled, ol.unstyled, ul.inline, ol.inline{
+  list-style:none;
+}
+ul.inline>li, ol.inline>li{
+  display: inline-block;
+}
+.form-group a{
+  text-transform: none;
+  padding-left: 15px;
+}
+.navbar-default a.navbar-brand{
+  text-transform: none;
+  color:#fff;
+}
+.form-group a {
+  color: #fff;
+}
+footer p {
+  text-align: center;
+}
