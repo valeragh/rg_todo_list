@@ -57,6 +57,43 @@ ul.inline>li, ol.inline>li{
 .form-group a {
   color: #fff;
 }
+.form-group a:hover {
+  color: #2c2c2d;
+}
 footer p {
   text-align: center;
+}
+section {
+  display: block;
+}
+.main-content{
+  text-align: center;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.main-content a {
+  margin-bottom: 20px;
+}
+.fa.fa-plus{
+  color: #2c2c2d;
+}
+.fa.fa-plus span{
+  color: #fff;
+}
+.panel-heading.row{
+  color: #fff;
+  background-color: #446faf;
+}
+.row.list-group-item.add{
+  background-color: #dbdbdb;
+}
+.row.list-group-item a{
+  text-transform: none;
+  color: #8b8f97;
+}
+.project{
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
 }

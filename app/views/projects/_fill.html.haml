@@ -1,0 +1,29 @@
+.container-fluid
+  .row.col-xs-12.project
+    .panel.panel-default
+      .panel-heading.row
+        %h4.panel-title.col-md-12
+          %i.fa.fa-calendar-o.fa-2x.col-sm-2
+          %p.col-sm-6.text-left
+            Project 1
+          = link_to "#", :class => "col-sm-2" do
+            %i.fa.fa-pencil
+          = link_to "#", :class => "col-sm-2" do
+            %i.fa.fa-trash-o
+      %ul.list-group
+        %li.row.list-group-item.add
+          .input-group.add
+            %input(type="text" placeholder="Start typing here to create a task..." class="form-control")
+            %span.input-group-btn
+              %input.btn.btn-success(type="submit" value="Add Task")
+      %ul.list-group
+        %li.row.list-group-item
+          %input.col-sm-2(type="checkbox")
+          = link_to "#", :class => "col-sm-2 text-left" do
+            do this task
+          = link_to "#", :class => "col-sm-2" do
+            %i.fa.fa-unsorted
+          = link_to "#", :class => "col-sm-2" do
+            %i.fa.fa-pencil
+          = link_to "#", :class => "col-sm-2" do
+            %i.fa.fa-trash-o
